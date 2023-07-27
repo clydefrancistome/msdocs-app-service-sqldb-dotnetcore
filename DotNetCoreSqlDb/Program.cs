@@ -15,6 +15,7 @@ options.InstanceName = "SampleInstance";
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
+
 // Add App Service logging
 builder.Logging.AddAzureWebAppDiagnostics();
 
